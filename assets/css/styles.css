@@ -8,10 +8,8 @@ h1, h2 {
 }
 
 hr {
-	/*height: 2px;*/
 	background-color: #cccccc;
 	border: none;
-	/*margin-bottom: 30px;*/
 }
 
 a {
@@ -107,6 +105,40 @@ a:visited, a:link, a:active {
 	width: 120px;
 	height: 50px;
 	font-size: 1.2em;
+}
+
+.left-images {
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+
+.right-images {
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	right: 10px;
+}
+
+.portfolio-image {
+	width: 290px;
+	height: 223px;
+}
+
+.image-banner {
+	background-color: #4aaaa5;
+	width: 290px;
+	height: 60px;
+	position: relative;
+	bottom: 70px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.image-text {
+	font-size: 1.5em;
+	color: #ffffff;
+	padding: 20px;
 }
 
 .sidebar {
