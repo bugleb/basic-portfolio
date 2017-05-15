@@ -1,20 +1,74 @@
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
-.main-div {
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited, a:link, a:active {
+	color:#777777;
+}
+
+.main {
 	background-image: url("../images/beige_paper.png");
-	background-color: #dddddd;
 	height: 100vh;
 }
 
-.footer {
-	background-color: #666666;
-	color: #cccccc; 
-	text-align: center;
-	padding: 40px;
-	position: absolute;
+.content {
+	width: 650px;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 80px;
 	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+.header-content {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.name {
+	line-height: 70px;
+	background-color: #4aaaa5;
+	height: 70px;
+	width: 250px;
+	position: absolute;
+	top: 10px;
+	float: left;
+	text-align: center;
+}
+
+.links {
+	line-height: 80px;
+	height: 100%;
+	float: right;
+}
+
+.footer {
+	height: 80px;
+	width: 100%;
+	background-color: #666666;
+	color: #cccccc;
+	position: absolute;
 	bottom: 0;
 	border-top: 5px solid #4aaaa5;
+}
+
+.footer-content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
 }
